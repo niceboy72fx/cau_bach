@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "basecode"
+version = "1.0.0"
+description = "Python basecode project"
+authors = ["Son Tran <son@zen8labs.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "^5.0.0"
+django-filter = "^21.1"
+phonenumbers = "^8.13.26"
+psycopg2-binary = "^2.9.9"
+argon2-cffi = "^21.3.0"
+uvicorn = "^0.18.3"
+django-ninja = "^0.22.2"
+pillow = "^10.1.0"
+pyjwt = "^2.8.0"
+django-hint = "^0.3.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
